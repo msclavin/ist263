@@ -1,0 +1,40 @@
+body {
+    background-color: #e6d4c7;
+    color: #1b5767;
+}
+h1, h2 {
+    color: #1b5767;
+}
+a:link {color: #bda639;}
+a:visited {color: #1b5767;}
+nav {
+    background-color: #bda639;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color: #629a9b;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a:hover {background-color: #bda639;}
+/*for index*/
+.quote {float: right;}
+
+/*for contact page*/
+.contactinfo {background-color: #629a9b; padding: 15px; border-radius: 15px;}
+.address {float: left; margin-right: 50px;}
+
+.mapandform, .contactinfo {margin: 20px;}
+
+.clear {clear: both;}
+
+.mapandform {background-color: #629a9b; padding: 15px; border-radius: 15px;}
+.map {float: right;}
+
+.map, .form {margin: 40px;}
+.map {flex: 2; order: 2;}
+.form {flex: 2; order: 1;}
+
+
+
