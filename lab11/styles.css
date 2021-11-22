@@ -1,0 +1,97 @@
+body {
+    background-color: #e6d4c7;
+    color: #1b5767;
+}
+h1, h2 {
+    color: #1b5767;
+}
+h1{font-size: 8vmin;}
+h2 {font-size: 5vmin}
+p {font-size: 3vmin;}
+a:link {color: #629a9b;}
+a:visited {color: #1b5767;}
+nav {
+    background-color: #bda639;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color: #629a9b;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a:hover {background-color: #bda639;}
+
+#skip {position: absolute; left: -999px; background-color: burlywood;}
+#skip:focus {left: 10px;}
+
+.skillsheading {
+    text-align: center;
+}
+
+
+.flexbox1 {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flexboxotherskills {
+    background-color: #629a9b;
+    padding: 15px;
+    border-radius: 15px;
+    flex-basis: 25%;
+}
+
+.flexbox2 {
+    display: flex; 
+    justify-content: right;
+    padding: 15px;
+}
+
+p {padding: 20px;}
+
+.contactinfo {background-color: #629a9b; padding: 15px; border-radius: 15px;}
+.address {float: left; margin-right: 50px;}
+
+.mapandform, .contactinfo {margin: 20px;}
+
+.clear {clear: both;}
+
+.mapandform {
+    background-color: #629a9b; 
+    padding: 15px; 
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.map {float: right;}
+
+.map, .form {
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.map {flex: 2; order: 2;}
+.form {flex: 2; order: 1;}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        max-width: 100%;
+    }
+    span {display: none;}
+    .banner {max-width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+

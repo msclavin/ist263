@@ -1,0 +1,28 @@
+body{
+    background-color: #EAE7DC;
+    color: #E85A4F;
+}
+
+h1 {font-size: 7vmin;}
+h2 {font-size: 5vmin;}
+h3 {font-size: 4vmin;}
+p {font-size: 3vmin;}
+
+a:link {color: #E98074;}
+a:visited {color: #8E8D8A;}
+
+nav {
+    background-color: #D8C3A5;
+    padding: 10px;
+}
+
+nav a:hover {background-color: #EAE7DC;}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: #D8C3A5;
+    padding: 20px;
+}
+#skip:focus {left: 15px;}
+
