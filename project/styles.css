@@ -1,6 +1,6 @@
 body{
-    background-color: #EAE7DC;
-    color: #E85A4F;
+    background-color: #f8f7f4;
+    color: #5a1712;
 }
 
 h1 {font-size: 7vmin;}
@@ -8,11 +8,11 @@ h2 {font-size: 5vmin;}
 h3 {font-size: 4vmin;}
 p {font-size: 3vmin;}
 
-a:link {color: #E98074;}
-a:visited {color: #8E8D8A;}
+a:link {color: #e01600;}
+a:visited {color: #504d43;}
 
 nav {
-    background-color: #D8C3A5;
+    background-color: #f7f3ef;
     padding: 10px;
 }
 
@@ -21,7 +21,7 @@ nav a:hover {background-color: #EAE7DC;}
 #skip {
     position: absolute;
     left: -999px;
-    background-color: #D8C3A5;
+    background-color: #4e3a1f;
     padding: 20px;
 }
 #skip:focus {left: 15px;}
