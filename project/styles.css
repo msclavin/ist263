@@ -3,10 +3,10 @@ body{
     color: #5a1712;
 }
 
-h1 {font-size: 7vmin;}
-h2 {font-size: 5vmin;}
-h3 {font-size: 4vmin;}
-p {font-size: 3vmin;}
+h1 {font-size: 7vmin; font-family: 'Cormorant Garamond', serif;}
+h2 {font-size: 5vmin; font-family: 'Cormorant Garamond', serif;}
+h3 {font-size: 4vmin; font-family: 'Cormorant Garamond', serif;}
+p {font-size: 3vmin; font-family: 'Cormorant Garamond', serif;}
 
 a:link {color: #e01600;}
 a:visited {color: #504d43;}
@@ -14,6 +14,7 @@ a:visited {color: #504d43;}
 nav {
     background-color: #f7f3ef;
     padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 nav a:hover {background-color: #EAE7DC;}
