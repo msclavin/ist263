@@ -11,7 +11,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dosis:wght@200&display=swap" rel="stylesheet">
     <style>
-
+        .intro p {
+            margin: 2em;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+        }
+        .heading {position: relative; text-align: center;}
+        h1 {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            opacity: 0; 
+            transition: .5s ease; 
+            background-color: antiquewhite;
+        }
+        .heading:hover h1 {opacity: 0.8}
+        img {max-width: 100%;}
+        .headingphoto {margin-left: auto; margin-right: auto;}
+        
+        #header,#header2 {max-width: 100%;}
+        #header3 {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+        
+        .allcookies p {font-size: 1em;}
+        .onlycookies, .onlycookies2 {flex: 1; padding: 2em;}
+        .allcookies {flex-wrap: wrap; display: flex;}
+        
+        
     </style>
 </head>
 <body>
@@ -24,240 +54,309 @@
         <a href="products.html">Our Products</a>
     </nav>
 
+<div class="intro">
 <main>
 
     <a id="maincontent"></a>
 
-    <h1>Our Products</h1>
+<div class="heading">
+        <img src="../project/project-images/Screen Shot 2021-11-07 at 9.23.59 PM.png" alt="cropped wandi tray">
+    <div class="overlay">
+        <h1 class="text">Our Products</h1>
+    </div>
+        
+</div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 9.23.59 PM.png" alt="cropped wandi tray">
-
+<div class="p1">
     <p>
         We guarantee you will not find the variety that we offer anywhere else. Our traditional cookie trays contain over twenty-five different kinds of cookies and biscotti--all made from scratch from different doughs with their own special flavors. 
     </p>
+</div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 9.25.01 PM.png" alt="assorted cookies">
+    <img src="../project/project-images/Screen Shot 2021-11-07 at 9.25.01 PM.png" alt="assorted cookies" id="header2">
 
     <p>
         We do NOT make one dough and shape it 25 different ways! There are about twenty-eight cookies per pound; we make them small so our guests can eat as many as they'd like. We recommend 1 1/2-pound trays for tables of 10 or more. Ask about our cookie favors, gift boxes, and individual servings! Our products are very customizable, and we are happy to work within your budget.
     </p>
 
-    <img src="../project/project-images/IMG_6239.jpg" alt="fruit cookies">
+    <img src="../project/project-images/IMG_6239.jpg" alt="fruit cookies" id="header3">
 
     <p>
         We guarantee you will not find the variety that we offer anywhere else. Our traditional cookie trays contain over twenty-five different kinds of cookies and biscotti--all made from scratch from different doughs with their own special flavors. We do NOT make one dough and shape it 25 different ways! There are about twenty-eight cookies per pound; we make them small so our guests can eat as many as they'd like. We recommend 1 1/2-pound trays for tables of 10 or more. Ask about our cookie favors, gift boxes, and individual servings! Our products are very customizable, and we are happy to work within your budget.
     </p>
+</div>
 
     <h2>Cookies:</h2>
 
+<div class="allcookies">
+    <div class="onlycookies">
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.47.34 PM.png" alt="almond biscotti">
+            <p>
+                <strong>Almond biscotti "Quaresimali" </strong> <br>
+                Traditionally made during the Lenten season, this old-school biscotti is made with brown sugar, cinnamon, and loads of almonds 
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.47.34 PM.png" alt="almond biscotti">
-    <p>
-        Almond biscotti "Quaresimali" <br>
-        Traditionally made during the Lenten season, this old-school biscotti is made with brown sugar, cinnamon, and loads of almonds 
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.47.44 PM.png" alt="almond crescent cookies">
+            <p>
+                <strong>Almond Crescents</strong> <br>
+                I Fiori Sicilia", a citrus flavoring provides a unique flavor to this almond cookie which gets dipped in dark chocolate and topped with crushed almonds
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.47.55 PM.png" alt="amaretti cookies">
+            <p>
+                <strong>Amaretti</strong> <br>
+                This gluten-free treat is made with almond flour...crispy on the outside and chewy on the inside.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.47.44 PM.png" alt="almond crescent cookies">
-    <p>
-        Almond Crescents <br>
-        I Fiori Sicilia", a citrus flavoring provides a unique flavor to this almond cookie which gets dipped in dark chocolate and topped with crushed almonds
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.07 PM.png" alt="anise toast cookies">
+            <p>
+                <strong>Anise toast</strong>  <br>
+                Double baked anise biscotti studded with candied fruit and topped with anise glaze.
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.18 PM.png" alt="aprocot pecan biscotti">
+            <p>
+                <strong>Apricot Pecan Biscotti</strong> <br>
+                This luscious biscotti is loaded with pecans and dried apricots, then topped with caramel glaze. A winning trio
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.47.55 PM.png" alt="amaretti cookies">
-    <p>
-        Amaretti <br>
-        This gluten-free treat is made with almond flour...crispy on the outside and chewy on the inside.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.35 PM.png" alt="bocche di dame cookies">
+            <p>
+                <strong>Bocche di Dame</strong>  <br>
+                "Bocche di dame"--the lips of a lady! Our newest star, a gluten-free almond-based cookie surrounds an amarena cherry. Lemon icing & dark chocolate bring it over the top.
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.47 PM.png" alt="bourbon balls">
+            <p>
+                <strong>Bourbon Balls</strong>  <br>
+                So strong you'll have to designate a driver.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.07 PM.png" alt="anise toast cookies">
-    <p>
-        Anise toast <br>
-        Double baked anise biscotti studded with candied fruit and topped with anise glaze.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.59 PM.png" alt="butterballs">
+            <p>
+                <strong>Butterballs</strong>  <br>
+                What's an Italian cookie tray without butterballs? We switch it up with walnuts or pecans. They melt in your mouth!
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/IMG_6247.jpg" alt="cherry slice cookie">
+            <p>
+                <strong>Cherry slices</strong>  <br>
+                One of our favorites...almond flavoring and glaze, chock full of cherries and walnuts.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.18 PM.png" alt="aprocot pecan biscotti">
-    <p>
-        Apricot Pecan Biscotti <br>
-        This luscious biscotti is loaded with pecans and dried apricots, then topped with caramel glaze. A winning trio
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.49.24 PM.png" alt="chocolate hazelnut biscotti">
+            <p>
+                <strong>Chocolate Hazelnut Biscotti</strong>  <br>
+                Loaded with hazelnuts, this spongy biscotti will be on everyone's favorite list! Topped with white chocolate.
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.49.38 PM.png" alt="cranberry pistachio biscotti">
+            <p>
+                <strong>Cranberry Pistachio Biscotti</strong>  <br>
+                Cranberries, pistachios, and a touch of anise topped with white chocolate.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.35 PM.png" alt="bocche di dame cookies">
-    <p>
-        Bocche di Dame <br>
-        "Bocche di dame"--the lips of a lady! Our newest star, a gluten-free almond-based cookie surrounds an amarena cherry. Lemon icing & dark chocolate bring it over the top.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.02 PM.png" alt="creme de menthe pistachio cookie">
+            <p>
+                <strong>Creme de Menthe Pistachio</strong>  <br>
+                Creme de menthe flavored butter cookie accented with dark chocolate and crushed pistachios.
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.15 PM.png" alt="egg biscuit cookies">
+            <p>
+                <strong>Egg biscuits</strong>  <br>
+                The "Italian wedding cookie"...ours is light with lemon flavor and icings chosen to match your special event          
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.47 PM.png" alt="bourbon balls">
-    <p>
-        Bourbon Balls <br>
-        So strong you'll have to designate a driver.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.28 PM.png" alt="espresso fudge cookies">
+            <p>
+                <strong>Espresso Fudge</strong>  <br>
+                If you like chocolate with your coffee, you simply must try this one!
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.41 PM.png" alt="fig cookie">
+            <p>
+                <strong>Fig "Cucidati"</strong>  <br>
+                No Italian cookie tray would be complete without this Sicilian favorite, loaded with figs, dates, golden raisins, rum and almonds then iced and decorated to match the colors of your special event. Delicioso!
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.48.59 PM.png" alt="butterballs">
-    <p>
-        Butterballs <br>
-        What's an Italian cookie tray without butterballs? We switch it up with walnuts or pecans. They melt in your mouth!
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.57.38 PM.png" alt="jelly thumbprint cookie">
+            <p>
+                <strong>Jelly Thumbprints</strong>  <br>
+                Jelly thumbprints are filled with raspberry, apricot, or blueberry filling.
+            </p>
+        </div>
 
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.57.49 PM.png" alt="lemon cardamom biscotti">
+            <p>
+                <strong>Lemon Cardamom Biscotti</strong>  <br>
+                Hard to decide which is the star of this biscotti--pignoli, cardamom, or the burst of lemon! One of our favorites.  
+            </p>
+        </div>
+    </div>
 
-    <img src="../project/project-images/IMG_6247.jpg" alt="cherry slice cookie">
-    <p>
-        Cherry slices <br>
-        One of our favorites...almond flavoring and glaze, chock full of cherries and walnuts.
-    </p>
+    <div class="onlycookies2">
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.57.58 PM.png" alt="linzer heart cookies">
+            <p>
+                <strong>Linzer Hearts</strong>  <br>
+                Everybody's favorite! Sandwiched with raspberry jam.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.49.24 PM.png" alt="chocolate hazelnut biscotti">
-    <p>
-        Chocolate Hazelnut Biscotti <br>
-        Loaded with hazelnuts, this spongy biscotti will be on everyone's favorite list! Topped with white chocolate.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.58.08 PM.png" alt="coconut macaroon cookies">
+            <p>
+                <strong>Macaroons</strong>  <br>
+                We decorate our coconut macaroons two ways, with the traditional cherry topping and 'black-bottomed'--coated and drizzled with dark chocolate.  
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.49.38 PM.png" alt="cranberry pistachio biscotti">
-    <p>
-        Cranberry Pistachio Biscotti <br>
-        Cranberries, pistachios, and a touch of anise topped with white chocolate.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.58.28 PM.png" alt="Only the finest milano cookies">
+            <p>
+                <strong>'Milano'</strong>  <br>
+                Butter cookies topped with dark chocolate. Simple yet perfect.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.02 PM.png" alt="creme de menthe pistachio cookie">
-    <p>
-        Creme de Menthe Pistachio <br>
-        Creme de menthe flavored butter cookie accented with dark chocolate and crushed pistachios.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.58.38 PM.png" alt="molasses cookies">
+            <p>
+                <strong>Molasses</strong>  <br>
+                Luscious molasses, cinnamon, cloves & brandy icing will warm you from the inside out.      
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.15 PM.png" alt="egg biscuit cookies">
-    <p>
-        Egg biscuits <br>
-        The "Italian wedding cookie"...ours is light with lemon flavor and icings chosen to match your special event          
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/IMG_6256.jpg" alt="peach cookie">
+            <p>
+                <strong>Peach cookies "Pesce Dolci"</strong>  <br>
+                They taste as good as they look! Another traditional Italian favorite, this cookie has peach flavor, peach brandy, and peach jam with an almond for the 'pit'. Beautiful cookie for favors!
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.28 PM.png" alt="espresso fudge cookies">
-    <p>
-        Espresso Fudge <br>
-        If you like chocolate with your coffee, you simply must try this one!
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/IMG_6254.jpg" alt="peanut butter balls">
+            <p>
+                <strong>Peanut Butter Balls</strong>  <br>
+                These are the first to disappear on our cookie displays! A perfect marriage of dark chocolate and creamy peanut butter.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.51.41 PM.png" alt="fig cookie">
-    <p>
-        Fig "Cucidati" <br>
-        No Italian cookie tray would be complete without this Sicilian favorite, loaded with figs, dates, golden raisins, rum and almonds then iced and decorated to match the colors of your special event. Delicioso!
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.12 PM.png" alt="pignoli cookies">
+            <p>
+               <strong> Pignoli </strong> <br>
+                Another Italian favorite! Our pignoli are made with almond paste, creating a crispy shell and chewy center. 
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.57.38 PM.png" alt="jelly thumbprint cookie">
-    <p>
-        Jelly Thumbprints <br>
-        Jelly thumbprints are filled with raspberry, apricot, or blueberry filling.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.23 PM.png">
+            <p>
+                <strong>Pistachio</strong>  <br>
+                From northern Italy, this gluten-free cookie is crunchy on the outside, moist on the inside.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.57.49 PM.png" alt="lemon cardamom biscotti">
-    <p>
-        Lemon Cardamom Biscotti <br>
-        Hard to decide which is the star of this biscotti--pignoli, cardamom, or the burst of lemon! One of our favorites.  
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/IMG_6246.jpg" alt="rose spritz cookies before baking">
+            <p>
+               <strong> Rose Spritz Cookies </strong>
+                Who doesn't love a butter cookie?? We pipe these in vanilla, chocolate, and raspberry and sandwich them with marshmallow buttercream. Can't you just picture these at a garden party or bridal shower??
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.57.58 PM.png" alt="linzer heart cookies">
-    <p>
-        Linzer Hearts <br>
-        Everybody's favorite! Sandwiched with raspberry jam.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.46 PM.png" alt="prune slice cookie">
+            <p>
+                <strong>Prune slices</strong>  <br>
+                SO GOOD you'll want to order them again...and again! Prunes, maraschino cherries, orange marmalade and brandy come together to create the filling of this popular cookie.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.58.08 PM.png" alt="coconut macaroon cookies">
-    <p>
-        Macaroons <br>
-        We decorate our coconut macaroons two ways, with the traditional cherry topping and 'black-bottomed'--coated and drizzled with dark chocolate.  
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.57 PM.png" alt="rugelach cookies">
+            <p>
+               <strong>Rugelach</strong>  <br>
+                A nod to our Jewish friends, we make our rugelach with a satiny cream cheese dough, brown sugar, walnuts, and raisins. L'chaim!
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.58.28 PM.png" alt="Only the finest milano cookies">
-    <p>
-        'Milano' <br>
-        Butter cookies topped with dark chocolate. Simple yet perfect.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 9.00.23 PM.png" alt="sesame cookies">
+            <p>
+                <strong>Sesame</strong>  <br>
+                Toasted sesame seeds and a touch of anise...perfect with your morning espresso.
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.58.38 PM.png" alt="molasses cookies">
-    <p>
-        Molasses <br>
-        Luscious molasses, cinnamon, cloves & brandy icing will warm you from the inside out.      
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/IMG_6255.jpg" alt="spumoni/rainbow cookies">
+            <p>
+                <strong>Spumoni/Rainbow Cookies</strong>  <br>
+                This cookie was created by Italian Americans as a tribute to their beloved flag. We layer this traditional almond paste-based cookie with raspberry and apricot filling. THE BEST!
+            </p>
+        </div>
 
-    <img src="../project/project-images/IMG_6256.jpg" alt="peach cookie">
-    <p>Peach cookies "Pesce Dolci" <br>
-        They taste as good as they look! Another traditional Italian favorite, this cookie has peach flavor, peach brandy, and peach jam with an almond for the 'pit'. Beautiful cookie for favors!
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 9.00.42 PM.png" alt="triple chocolate log cookies">
+            <p>
+                <strong>Triple Chocolate Logs</strong>  <br>
+                Rich, dark chocolate batter topped with more dark chocolate and jimmies. A chocoholic's dream!
+            </p>
+        </div>
 
-    <img src="../project/project-images/IMG_6254.jpg" alt="peanut butter balls">
-    <p>
-        Peanut Butter Balls <br>
-        These are the first to disappear on our cookie displays! A perfect marriage of dark chocolate and creamy peanut butter.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/Screen Shot 2021-11-07 at 8.38.37 PM.png" alt="wandi tray">
+            <p>
+                <strong>Wandi</strong>  <br>
+                Wandi is an Italian American delicacy that has been made in our family for several generations. Stacked in a tray or layered in a bushel basket, it's the Italian version of a potato chip--you can't eat just one! 
+            </p>
+        </div>
 
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.12 PM.png" alt="pignoli cookies">
-    <p>
-        Pignoli <br>
-        Another Italian favorite! Our pignoli are made with almond paste, creating a crispy shell and chewy center. 
-    </p>
-
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.23 PM.png"
-    <p>
-        Pistachio <br>
-        From northern Italy, this gluten-free cookie is crunchy on the outside, moist on the inside.
-    </p>
-
-
-    <img src="../project/project-images/IMG_6246.jpg" alt="rose spritz cookies before baking">
-    <p>
-        Rose Spritz Cookies
-        Who doesn't love a butter cookie?? We pipe these in vanilla, chocolate, and raspberry and sandwich them with marshmallow buttercream. Can't you just picture these at a garden party or bridal shower??
-    </p>
-
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.46 PM.png" alt="prune slice cookie">
-    <p>
-        Prune slices <br>
-        SO GOOD you'll want to order them again...and again! Prunes, maraschino cherries, orange marmalade and brandy come together to create the filling of this popular cookie.
-    </p>
-
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.59.57 PM.png" alt="rugelach cookies">
-    <p>
-        Rugelach <br>
-        A nod to our Jewish friends, we make our rugelach with a satiny cream cheese dough, brown sugar, walnuts, and raisins. L'chaim!
-    </p>
-
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 9.00.23 PM.png" alt="sesame cookies">
-    <p>
-        Sesame <br>
-        Toasted sesame seeds and a touch of anise...perfect with your morning espresso.
-    </p>
-
-
-    <img src="../project/project-images/IMG_6255.jpg" alt="spumoni/rainbow cookies">
-    <p>
-        Spumoni/Rainbow Cookies <br>
-        This cookie was created by Italian Americans as a tribute to their beloved flag. We layer this traditional almond paste-based cookie with raspberry and apricot filling. THE BEST!
-    </p>
-
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 9.00.42 PM.png" alt="triple chocolate log cookies">
-    <p>
-        Triple Chocolate Logs <br>
-        Rich, dark chocolate batter topped with more dark chocolate and jimmies. A chocoholic's dream!
-    </p>
-
-    <img src="../project/project-images/Screen Shot 2021-11-07 at 8.38.37 PM.png" alt="wandi tray">
-    <p>
-        Wandi <br>
-        Wandi is an Italian American delicacy that has been made in our family for several generations. Stacked in a tray or layered in a bushel basket, it's the Italian version of a potato chip--you can't eat just one! 
-    </p>
-
-
-    <img src="../project/project-images/IMG_6250.jpg" alt="pizzelles packaged up">
-    <p>
-        Pizzelle <br>
-        Classic Italian cookies baked in a waffle iron. We make two kinds, anise, and chocolate raspberry. Great with ice cream or gelato! These can be added to your cookie or wandi tray or sold by the pound.
-    </p>
+        <div class="cookie">
+            <img src="../project/project-images/IMG_6250.jpg" alt="pizzelles packaged up">
+            <p>
+                <strong>Pizzelle</strong>  <br>
+                Classic Italian cookies baked in a waffle iron. We make two kinds, anise, and chocolate raspberry. Great with ice cream or gelato! These can be added to your cookie or wandi tray or sold by the pound.
+            </p>
+        </div>
+    </div>
+    </div>
 
     <h3>Cookie Packages</h3>
 

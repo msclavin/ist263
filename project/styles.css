@@ -16,6 +16,10 @@ nav {
     padding: 10px;
     font-family: 'Cormorant Garamond', serif;
 }
+@media only screen and (max-width: 600px) {
+    nav a {display: block; max-width: 100%;}
+    span {display: none;}
+}
 
 nav a:hover {background-color: #EAE7DC;}
 

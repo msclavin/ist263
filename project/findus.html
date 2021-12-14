@@ -11,7 +11,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dosis:wght@200&display=swap" rel="stylesheet">
     <style>
-
+        body {margin-left: 3em; margin-right: 3em;}
+        .menu {max-width: 100%; display: block; margin-left: auto; margin-right: auto;}
+        .farmersmarket {max-width: 100%; display: block; margin-left: auto; margin-right: auto; }
+        .charcuterie {max-width: 100%; display: block; margin-left: auto; margin-right: auto;}
+        h1 {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            opacity: 0; 
+            transition: .5s ease; 
+            background-color: antiquewhite;
+        }
+        .findus:hover h1 {opacity: 0.8;}
+        .findus {position: relative; text-align: center;}
+        h2 {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            opacity: 0; 
+            transition: .5s ease; 
+            background-color: antiquewhite;
+        }
+        .findus2:hover h2 {opacity: 0.8}
+        .findus2 {position: relative; text-align: center;}
+        .findus2photo {margin-left: auto; margin-right: auto;}
     </style>
 </head>
 <body>
@@ -28,17 +58,19 @@
 
 <a id="maincontent"></a>
 
-<div class="findus">
-
-    <div class="findus2">
+    <div class="findus">
         <h1>Where To Find Us</h1>
 
-            <img src="../project/project-images/IMG_6238.jpg" alt="cookie tray at a wedding">
-
-        <h2>Because Only The Finest does not have a storefront, they go to farmer’s markets and local events to sell cookies, espresso, and cannoli. This is where and when we will be popping up for the next few months!</h2>
+            <img src="../project/project-images/IMG_6238.jpg" alt="cookie tray at a wedding" class="menu">
     </div>
-
-            <img src="../project/project-images/IMG_6249.jpg" alt="overhead image of ccokie display at the farmers market">
+<br>
+    <div class="findus2">
+        <h2>Because Only The Finest does not have a storefront, they go to farmer's markets and local events to sell cookies, espresso, and cannoli. This is where and when we will be popping up for the next few months!</h2>
+    
+            <div class="findus2photo">
+                <img src="../project/project-images/IMG_6249.jpg" alt="overhead image of ccokie display at the farmers market" class="farmersmarket">
+            </div>
+    </div>
 
         <h3>Find us here:</h3>
 
@@ -50,18 +82,20 @@
                 <strong>Let us know where you think we should pop-up next! </strong>
             </p>
 
+        <form action="mailto:mbedrosian89@gmail.com" method="POST">
             <textarea name="message" rows="10" cols="30">Where do you want to see us?</textarea> 
             <br>
+            <br>
             <input type="submit" value="Send My request">
+        </form>
 
         <br>
         <br>
 
-            <img src="../project/project-images/IMG_6242.jpg" alt="charcuterie coard featuring Only The Finest rainbow cookies">
+            <img src="../project/project-images/IMG_6242.jpg" alt="charcuterie coard featuring Only The Finest rainbow cookies" class="charcuterie">
 
         <br>
 
-</div>
 </main>
 
 <footer>

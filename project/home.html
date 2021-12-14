@@ -11,7 +11,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dosis:wght@200&display=swap" rel="stylesheet">
     <style>
-        .bannerphoto {text-align: center; clear: both;}
+        .bannerphoto {
+            display: relative; 
+            text-align: center;
+        }
+        h1 {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            opacity: 0; 
+            transition: .5s ease; 
+            background-color: antiquewhite;
+        } 
+        .bannerphoto:hover h1 {opacity: 0.8;}
+        img {max-width: 100%;}
+        h2 {text-align: center;}
+        .banner {margin-left: auto; margin-right: auto;}
         .espresso {width: 200px; float: left; padding-right: 20px;}
         .cookietable {width: 200px; float: right; padding-left: 20px;}
         .market {width: 200px; float: left; padding-right: 20px;}
@@ -23,11 +41,8 @@
         .para4 {padding: 50px;}
         .para5 {padding: 50px;}
         .para6 {text-align: center;}
-        @media only screen and (max-width: 600px) {
-            nav a {display: block; max-width: 100%;}
-            span {display: none;}
-            .banner {max-width: 100%;}
-        }
+        .clear {clear: both;}
+        
     </style>
 </head>
 <body>
@@ -43,9 +58,11 @@
 <main>
 
 <div class="bannerphoto">
-<h1>Only The Finest Italian Cookies</h1>
+    <h1>Only The Finest Italian Cookies</h1>
 
-    <img class="banner" src="../project/project-images/IMG_6253.jpg" alt="Full size cookie table display">
+        <div class="banner">
+            <img src="../project/project-images/IMG_6253.jpg" alt="Full size cookie table display with espresso bar">
+        </div>
 </div>
 
     <a id="maincontent"></a>
@@ -89,7 +106,7 @@
             I took over the business in 2017 to continue offering our customers dessert options like no other.  We could not think of a better tribute to mom than to continue the business she was so very proud of. Mom settled for nothing but the best and insisted that we follow suit. Only the Finest promises superior products and services. 
         </p>
     </div>
-
+<div class="clear"></div>
     <div class="para6">
         <p>
             Our team is ready to customize our offerings to best serve your needs. It is our wish that by choosing Only the Finest we can be an important part of your special event.”
