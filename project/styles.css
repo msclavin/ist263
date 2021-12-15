@@ -8,8 +8,8 @@ h2 {font-size: 5vmin; font-family: 'Cormorant Garamond', serif;}
 h3 {font-size: 4vmin; font-family: 'Cormorant Garamond', serif;}
 p {font-size: 3vmin; font-family: 'Cormorant Garamond', serif;}
 
-a:link {color: #e01600;}
-a:visited {color: #504d43;}
+a:link {color: #5e0900;}
+a:visited {color: #1a1915;}
 
 nav {
     background-color: #f7f3ef;
@@ -21,12 +21,12 @@ nav {
     span {display: none;}
 }
 
-nav a:hover {background-color: #EAE7DC;}
+nav a:hover {background-color: #837b60;}
 
 #skip {
     position: absolute;
     left: -999px;
-    background-color: #4e3a1f;
+    background-color: #1d1204;
     padding: 20px;
 }
 #skip:focus {left: 15px;}
