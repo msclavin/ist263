@@ -77,17 +77,28 @@
             <p>
                 We will not be popping us anywhere for the next few months due to the busy Christmas season! Order your holiday cookies online, through email (mbedrosian89@gmail.com), or call 401-450-9276.
             </p>
-
             <p>
-                <strong>Let us know where you think we should pop-up next! </strong>
+                <strong>Let us know where you think we should pop-up next!</strong>
             </p>
 
-        <form action="mailto:mbedrosian89@gmail.com" method="POST">
-            <textarea name="message" rows="10" cols="30">Where do you want to see us?</textarea> 
-            <br>
-            <br>
-            <input type="submit" value="Send My request">
-        </form>
+    <form action="mailto:mbedrosian89@gmail.com" method="POST">
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="contact">Choose a place you'd like to see us:</label> <br>
+    <select id="contact" name="contact">
+        <option value="farmersmarket">More Farmer's Markets</option>
+        <option value="weddingtastings">More Wedding Tastings</option>
+        <option value="localevents">More Local Events</option>
+    </select>
+    <br>
+    <br>
+    <textarea name="message" rows="10" cols="30">Where else would you like to see us?</textarea> 
+    <br>
+    <input type="submit" value="Send My Message">
 
         <br>
         <br>
@@ -103,7 +114,7 @@
     <hr>
 
     <p>
-        ONLYTHEFINESTITALIANCOOKIES@GMAIL.COM 
+        <a href="mailto:mbedrosian89@gmail.com">mbedrosian89@gmail.com</a> 
         <br>
         <br>
         401-450-9276
